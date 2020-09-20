@@ -1,0 +1,19 @@
+.jumbotron{
+    background-color: gray;
+}
+.card-header{
+    background-color: honeydew;
+}
+.card-title{
+    color: gray;
+}
+.card-body{
+    background-color: gray;
+}
+body{
+    background-color: maroon;
+}
+.list-group-item{
+    background-color: honeydew;
+
+}

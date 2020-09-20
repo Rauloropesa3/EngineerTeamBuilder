@@ -3,6 +3,9 @@ class Employee{
     //builing a constructor that is a blueprint for creating a new employee using information.
 
     constructor(name, id, email) {
+        if (typeof name !== "string" || !name.trim().length) {
+            throw new Error("expected parameter 'name' to be a non-empty string");
+        }
 
         this.name = name; 
         this.id = id;
