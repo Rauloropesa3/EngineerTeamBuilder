@@ -132,9 +132,7 @@ function app() {
     addingNewMember()
 }
 function renderTeam(){
- 
-   
-   //write to file. 
+ //write to file. 
     fs.writeFileSync(outputPath, render(teamMember), "utf-8")
     
 }
